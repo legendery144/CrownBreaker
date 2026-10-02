@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "crownbreaker",
+  "version": "${version}",
+  "name": "Crownbreaker Mod",
+  "description": "SepaiSpider Crownbreaker Mace for Fabric 1.21.1",
+  "authors": [
+    "Gemini"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.crownbreaker.CrownBreakerMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
