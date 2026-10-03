@@ -1,18 +1,22 @@
 {
   "schemaVersion": 1,
   "id": "crownbreaker",
-  "version": "${version}",
+  "version": "1.0.0",
   "name": "Crownbreaker Mod",
-  "description": "SepaiSpider Crownbreaker Mace for Fabric 1.21.1",
+  "description": "Adds the Crown Breaker Mace with Sky Launcher, Water Dash, and Soul Reaper abilities.",
   "authors": [
-    "Gemini"
+    "legendery144"
   ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/crownbreaker/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.crownbreaker.CrownBreakerMod"
+      "net.legendery.crownbreaker.CrownBreakerMod"
     ]
   },
+  "mixins": [],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.1",
