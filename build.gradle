@@ -4,7 +4,7 @@ plugins {
 }
 
 version = '1.0.0'
-group = 'net.legendery.crownbreaker'
+group = 'com.example.crownbreaker'
 
 base {
     archivesName = 'crownbreaker'
@@ -18,11 +18,21 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main {
+        java {
+            srcDirs = [
+                'src/main/java',
+                'src/main/resources/src/main/java'
+            ]
+        }
+    }
+}
+
 dependencies {
     minecraft "com.mojang:minecraft:1.21.1"
     mappings "net.fabricmc:yarn:1.21.1+build.1:v2"
     modImplementation "net.fabricmc:fabric-loader:0.16.0"
-
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.102.0+1.21.1"
 }
 
