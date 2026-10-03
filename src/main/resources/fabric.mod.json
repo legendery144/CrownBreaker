@@ -3,13 +3,12 @@
   "id": "crownbreaker",
   "version": "1.0.0",
   "name": "Crownbreaker Mod",
-  "description": "Adds the Crown Breaker Mace with Sky Launcher, Water Dash, and Soul Reaper abilities.",
+  "description": "Adds the Crown Breaker Mace with unique abilities.",
   "authors": [
     "legendery144"
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/crownbreaker/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
